@@ -1,0 +1,10 @@
+train (t-rc1mviibd80mk0hijcrwgbfui) {
+  utterance ("[g:FindEarthquakes] Show earthquakes (in my area)[r:geo.CurrentLocation]")
+  plan (dY5BDoIwEEW/IKI7E030AGzccAiNunFh8AQNjDBq2lhazm/RFMWESZrpvL75KWZIbiQlX0mnJLSpnlbc6cCycGDfAWyGrbZ9zRrLhpu0JJVenJpXGZWsJBJPt5YfxVmxNJko2NY9a+GtHwHroVXM/cuR1Jtj5cnOak3SnFQuTJv8/6tPwBQjBAgxRoQJYjejRyI3oTsh2grcPQZe)
+  last-modified (1568160933279)
+}
+train (t-rqzv315eo26vq7hgbdky22jef) {
+  utterance ("[g:FindEarthquakes] Search for earthquakes in (Los Angeles)[v:geo.SearchTerm] with {[g:MinMagnitude] (6.0)[v:Magnitude]} magnitude or greater")
+  plan (fYvBEsEwFEVvKPbGHzCMTT7CjO66wQ9k5ElfaTKi6fdLYxSLWr17zz0PM6wqspYv5CUp35T3oK6Us9UR7HuA7bDVnY/5wHpYLdgWylhugiYs/3i9tGi5lYacPEbpXB7IsLPYvOku8E1/T7l39aufyNeY/74nNoXACGNkmMSM1ERqIrYsEaQk4t6Z0XgC)
+  last-modified (1568161734902)
+}

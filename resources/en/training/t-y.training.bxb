@@ -1,0 +1,5 @@
+train (t-ybhjeiud8cp3saijanxejbh7r) {
+  utterance ("[g:FindEarthquakes] Show earthquakes that happened (last weekend)[v:time.DateTimeExpression] above magnitude {[g:MinMagnitude] (4.0)[v:Magnitude]}")
+  plan (fYpBDoJADEU/iqdwqzFxMacQExfsuEATGmiUirQQjs9kFrib/MX/7Xs44corDeOHA9Pk/W+mN7/UpOvdQrW/cM9oT9H2rxpuGbcWralT8bllXHLibp0XWYLLwOFBzk0c1TpObCZfRYkCBxxjI60iBulCYmWikWw=)
+  last-modified (1563570239776)
+}

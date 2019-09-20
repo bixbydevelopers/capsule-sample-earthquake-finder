@@ -1,0 +1,10 @@
+train (t-bfahqbz78h4x1i0d9nnmf8e9j) {
+  utterance ("[g:EarthquakeDateTime] What time did the {[g:ApproxMagnitude] (2.0)[v:Magnitude]} magnitude earthquake happen in (San Jose)[v:geo.SearchTerm]")
+  plan (jYtNDoIwFIQHUHFtPILGxMTeQaMkLtwoF2jkpTRCi6UQjm9T/N0QV2++me9hig11vKwKYsSNze8Nv9FR1VLktmaHd7XnllJZEpZ/6VgPaIlU2UetB91tVRndnbhQ0jYZYTHgfqx5K1smSLOL0675mYTUCqtXu2tkkX1PidFlzymZErPfd9/FCBAiwghjTBzhyaHn0BHcBn/7FHs7QPQA)
+  last-modified (1563570239132)
+}
+train (t-bzprukjhumopnm47eies33kz0) {
+  utterance ("[g:FindEarthquakes] Show earthquakes in (San Jose)[v:geo.SearchTerm] in (2017)[v:time.DateTimeExpression] with magnitude between {[g:MinMagnitude] (2.5)[v:Magnitude]} and {[g:MaxMagnitude] (7.0)[v:Magnitude]}")
+  plan (lYzLDoIwEEUvis+lcedWQ+KiH2GExAUb5QcamUAjFKSF8Pm2EHxsSOykycyZMxdrHKjleZkRI17p9FnzB12kEkmqFfPfCMcRLRAy/qgK3ogb8jbkiRS6jgn7UXGwRuOE/Ddu24iGJVSwm9Hu6ZUSUUh4Az3VIou/V0FV5P0cUZVj83vesZ1lWuTEzlxTZBq/LStSyiav4GCCKVzMMMcCS0PQMccwp2OOKZip/7a3z3JrD9cTU+4L)
+  last-modified (1563570239209)
+}

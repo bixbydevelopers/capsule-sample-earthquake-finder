@@ -1,0 +1,15 @@
+train (t-9j6wa6r6mdzn799aa9knaxl01) {
+  utterance ("[g:FindEarthquakes:continue] Show me earthquakes with a minimum magnitude of {[g:MinMagnitude] (5.0)[v:Magnitude:5.0]} instead")
+  plan (Y2BhUMlKzcvLTEst0ktNLCrJKCxNzE51y8xLAQq4wgUYNHGrAlEIlcUMariV+mbm+Sam52WWlKakMijjUQdXxMzAyMAEJBnANCOQZgFimCiQBAA=)
+  last-modified (1568339871068)
+}
+train (t-9ojt23276y6hy6soq2135o065) {
+  utterance ("[g:FindEarthquakes] find earthquakes with maximum magnitude of {[g:MaxMagnitude] (1.0)[v:Magnitude]}")
+  plan (Y2BhUMlKzcvLTEst0ktNLCrJKCxNzE51y8xLAQq4wgUYNHGrAlEIlcUMariV+iZW+Cam52WWlKakMijjUwdTxMzAyMAEJBnANCOQZgFimCiQBAA=)
+  last-modified (1567550359221)
+}
+train (t-9vmfw6vhxn9elkr4fwxuklifz) {
+  utterance ("[g:FindEarthquakes] find earthquakes with a minimum magnitude of {[g:MinMagnitude] (3.0)[v:Magnitude]} or greater")
+  plan (Y2BhUMlKzcvLTEst0ktNLCrJKCxNzE51y8xLAQq4wgUYNHGrAlEIlcUMariV+mbm+Sam52WWlKakMijjUQdXxMzAyMAEJBnANCOQZgFimCiQBAA=)
+  last-modified (1567289982343)
+}

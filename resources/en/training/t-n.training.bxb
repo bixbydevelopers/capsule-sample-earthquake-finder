@@ -1,0 +1,5 @@
+train (t-n34nvq3ap7qwyszhhgwvw65n0) {
+  utterance ("[g:FindEarthquakes:continue] that happened (last week)[v:viv.time.DateTimeExpression]")
+  plan (Y2BmUE6tSMwtyEnVS00sKskoLE3MTnXLzEtJLdJzhQswaOBUBKIQCosZpMsyy/RKMnNT9VwSS1JDgAzXioKi1OLizPw8BiYGRiBmAJKMDCAA5QMA)
+  last-modified (1568573531866)
+}

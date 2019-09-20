@@ -1,0 +1,32 @@
+enum (EventType) {
+	description (Type of seismic event)
+	symbol (earthquake) // listed
+	symbol (acoustic noise)
+	symbol (anthropogenic event)
+	symbol (building collapse)
+	symbol (chemical explosion)
+	symbol (collapse)
+	symbol (eq)
+	symbol (experimental explosion)
+	symbol (explosion) // listed
+	symbol (ice quake) // listed
+	symbol (induced or triggered event)
+	symbol (landslide)
+	symbol (meteor)
+	symbol (meteorite)
+	symbol (mine collapse)
+	symbol (mining explosion) // listed
+	symbol (not reported)
+	symbol (nuclear explosion)
+	symbol (other event) // listed
+	symbol (quarry)
+	symbol (quarry blast) // listed
+	symbol (rock burst)
+	symbol (rock slide)
+	symbol (rockslide)
+	symbol (snow avalanche)
+	symbol (sonic boom)
+	symbol (sonicboom)
+	symbol (volcanic eruption)
+	symbol (volcanic explosion)
+}

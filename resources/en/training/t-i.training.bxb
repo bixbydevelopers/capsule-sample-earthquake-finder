@@ -1,0 +1,5 @@
+train (t-ic0de1gyhe2uhkivdctrkeypo) {
+  utterance ("[g:FindEarthquakes] find earthquakes in (Los Angeles)[v:viv.geo.SearchTerm] that happened (last year)[v:viv.time.DateTimeExpression]")
+  plan (Y2BjUE2tSMwtyEnVS00sKskoLE3MTvXMK85Mzygp1nOFCzFo4VHmlpmXglBazCBSllmml56arxcMVJycEZSanpmfx6AOE3UqzcxJQZZyK8rPhfBDUotyGYRQtYPFpEFiJZm5qXouiSWpIUCGa0VBUWpxMchkVgZGBiYGZgYWIIsBymYEQgYwBgEQHywLAA==)
+  last-modified (1563570239476)
+}

@@ -1,0 +1,10 @@
+train (t-s13zloqdjv8q5p84c7jowekvj) {
+  utterance ("[g:FindEarthquakes:continue] and (mining explosion)[v:EventType:'mining explosion']")
+  plan (Y2BmUMlKzcvLTEst0ktNLCrJKCxNzE51y8xLAQq4wgUYNHGrAlEIlcUMyngMLEvNKwmpLEhlYGJgBGIGIMnIAAJQPgA=)
+  last-modified (1567437148133)
+}
+train (t-syjzopfpqcjj5s41nuxd5c7ox) {
+  utterance ("[g:FindEarthquakes] find earthquakes with event type of (quarry blast)[v:EventType:'quarry blast'] and (explosion)[v:EventType:explosion]")
+  plan (Y2BlUMlKzcvLTEst0ktNLCrJKCxNzE51y8xLAQq4wgUYNHGrAlEIlcUMyngMLEvNKwmpLEiloiIWBkYGJgZmIM0AZjEBSQYGHiBkAIoyQmQA)
+  last-modified (1567435026463)
+}

@@ -1,0 +1,15 @@
+train (t-8j4hrrabaupdaxmjwmgt0426z) {
+  utterance ("[g:FindEarthquakes] Find earthquakes in (Chile)[v:geo.SearchTerm] in (2015)[v:time.DateTimeExpression]")
+  plan (Y2BjUE2tSMwtyEnVS00sKskoLE3MTvXMK85Mzygp1nOFCzFo4VHmlpmXglBazCBSllmml56arxcMVJycEZSanpmfx6AOE3UqzcxJQZZyK8rPhfBDUotyGYRQtYPFpEFiJZm5qXouiSWpIUCGa0VBUWpxMchkVgZGBiYGZgYWIIsBymYEQgYwBgEQHywLAA==)
+  last-modified (1563570239151)
+}
+train (t-8l7t35bwxg3llxwajcygis3cf) {
+  utterance ("[g:FindEarthquakes] Find earthquakes in (Anchorage)[v:geo.SearchTerm] (this year)[v:time.DateTimeExpression] with magnitude greater than {[g:MinMagnitude] (3.0)[v:Magnitude]}")
+  plan (fYzLDoIwEEUvvtfGnVuNiYt+hBESF2yUH2hkAo20YFsIn29bI+qGzqJzz5wZrLCnnsumIkZc2/LZ8gddlBFFaQ2LB4TjiJYIlX9Vg8OImwqV8kIJ2+aE3Zg4WJtOdKygmt2cdi+vVIha4fChp1ZU+e8o0bV854y0xPp/PbCtZ1ZIYmduKXNN3DeajPGXl4gwwRQzzLFwCSFHIUeu4DqE3z/PvOU3nPcC)
+  last-modified (1563570239111)
+}
+train (t-8r79ovgabqai4qdx6019cs0he) {
+  utterance ("[g:FindEarthquakes:continue] greater than {[g:MinMagnitude] (6.0)[v:Magnitude]}")
+  plan (Y2BhUMlKzcvLTEst0ktNLCrJKCxNzE51y8xLAQq4wgUYNHGrAlEIlcUMariV+mbm+Sam52WWlKakMijjUQdXxMzAyMAEJBnANCOQZgFimCiQBAA=)
+  last-modified (1567812452708)
+}

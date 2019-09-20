@@ -1,0 +1,15 @@
+train (t-h21nz574o8l8gmru4sfvl1kp6) {
+  utterance ("[g:FindEarthquakes:continue] with (quarry blasts)[v:EventType:'quarry blast']")
+  plan (Y2BmUMlKzcvLTEst0ktNLCrJKCxNzE51y8xLAQq4wgUYNHGrAlEIlcUMyngMLEvNKwmpLEhlYGJgBGIGIMnIAAJQPgA=)
+  last-modified (1567451754449)
+}
+train (t-h4btefg1qjaqxgrxe2cwhljsu) {
+  utterance ("[g:FindEarthquakes] Show earthquakes that occurred in (California)[v:geo.SearchTerm]")
+  plan (Y2BlUE2tSMwtyEnVS00sKskoLE3MTvXMK85Mzygp1nOFCzFo4VHmlpmXglBazCBSllmml56arxcMVJycEZSanpmfx6AOE3UqzcxJQZZyK8rPhfBDUotyGYRQtYPFWBgYGZgYmIE0A5TFCGaBABOQBooDAA==)
+  last-modified (1563570239416)
+}
+train (t-hv9rtb25rm2qvihyl4s206sf9) {
+  utterance ([g:FindEarthquakes] Find earthquakes)
+  plan (Y2BiUE2tSMwtyEnVS00sKskoLE3MTvXMK85Mzygp1nOFCzFo4VHmlpmXglBazMAIhAxQDCQB)
+  last-modified (1561061413809)
+}

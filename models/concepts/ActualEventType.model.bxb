@@ -1,0 +1,3 @@
+name (ActualEventType) {
+  description (The actual event type for the earthquake, e.g. earthquake, quarry blast, explosion, etc.)
+}

@@ -1,0 +1,15 @@
+train (t-00tu93fl0pg7ulqxz0rh6lni5) {
+  utterance ("[g:FindEarthquakes:continue] and event type (explosion)[v:EventType:explosion]")
+  plan (Y2BmUMlKzcvLTEst0ktNLCrJKCxNzE51y8xLAQq4wgUYNHGrAlEIlcUMyngMLEvNKwmpLEhlYGJgBGIGIMnIAAJQPgA=)
+  last-modified (1567438446600)
+}
+train (t-0maw03mn8r9m4zawqcnei5krq) {
+  utterance ("[g:FindEarthquakes] Find earthquakes near the (Golden Gate Bridge)[v:geo.SearchTerm] that happened (last year)[v:time.DateTimeExpression]")
+  plan (Y2BjUMlKzcvLTEst0ktNLCrJKCxNzE51y8xLAQq4wgUYNHGrAlEIlcUMImWZZXrpqfl6wUClyRlBqemZ+XkM6jBRp9LMnBRkKbei/FwIPyS1KJdBCFU7WEwaJFaSmZuq55JYkhoCZLhWFBSlFheDTGZlYGRgYmBmYAGyGKBsRiBkAGMQAPHBsgA=)
+  last-modified (1566859689694)
+}
+train (t-0twuj1q2sbqh4a8uptex8jah9) {
+  utterance ("[g:FindEarthquakes] Find earthquakes near (Fisherman's Wharf)[v:geo.SearchTerm] that happened (last year)[v:time.DateTimeExpression]")
+  plan (Y2BjUE2tSMwtyEnVS00sKskoLE3MTvXMK85Mzygp1nOFCzFo4VHmlpmXglBazCBSllmml56arxcMVJycEZSanpmfx6AOE3UqzcxJQZZyK8rPhfBDUotyGYRQtYPFpEFiJZm5qXouiSWpIUCGa0VBUWpxMchkVgZGBiYGZgYWIIsBymYEQgYwBgEQHywLAA==)
+  last-modified (1563570238950)
+}

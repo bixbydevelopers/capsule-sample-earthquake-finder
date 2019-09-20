@@ -1,0 +1,5 @@
+train (t-oiuebb4pyogwtmj1ps1c47rip) {
+  utterance ("[g:FindEarthquakes] what (quarry blasts)[v:EventType:'quarry blast'] and (explosions)[v:EventType:explosion] happened (this year)[v:time.DateTimeExpression]\n")
+  plan (Y2BjUMlKzcvLTEst0ktNLCrJKCxNzE51y8xLAQq4wgUYNHGrAlEIlcUMyngMLEvNKwmpLEiloiLpsswyvZLM3FQ9l8SS1BAgw7WioCi1uDgzP4+BlYGRgYmBmYEFyGIAs5mAJCOQzQOEIMAC5EHlAQ==)
+  last-modified (1568513270710)
+}

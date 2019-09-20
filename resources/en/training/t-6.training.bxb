@@ -1,0 +1,10 @@
+train (t-6ac23mbci1m6o1htj6ni8n32b) {
+  utterance ("[g:FindEarthquakes] find earthquakes within (3)[v:geo.DistanceMagnitude:3] (miles)[v:geo.DistanceUnit:Miles] (of me)[r:geo.CurrentLocation]\n")
+  plan (dY7LCsIwEEWvz1p1ISio+27c9CN8bhRE8QNCO9ZRSbBN/H5TNWpFA2HCuWcuQRvBkaTkPaUhiVQfLkacaM4ytmD2Ahj9t/LxNjP0rnwNE1Lh1qrRYUMJK4nA0bHhc7xWLPVGxGyygtV11oeAwb9VdFyyIHXn6DsyMWlKUi9VJHTe/P2rR8GwUP07mnKmhYxoJRLJ2sT07nLRzgZooYQyKqiihjo8NOCjaSkKvHbnvmV43cpz5qdqX/mWB9wA)
+  last-modified (1568160354649)
+}
+train (t-6dbim4bn8dhc0a7m657h1zvpr) {
+  utterance ("[g:FindEarthquakes] What earthquakes occurred (today)[v:time.DateTimeExpression]")
+  plan (Y2BmUE2tSMwtyEnVS00sKskoLE3MTvXMK85Mzygp1nOFCzFo4VHmlpmXglBazCBdllmmV5KZm6rnkliSGgJkuFYUFKUWF2fm5zEwMTACMQOQZGQAASgfAA==)
+  last-modified (1563570239070)
+}

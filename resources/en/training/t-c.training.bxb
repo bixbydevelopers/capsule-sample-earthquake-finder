@@ -1,0 +1,10 @@
+train (t-c2k38vpf60t611evq2krk5ob9) {
+  utterance ("[g:FindEarthquakes] List earthquakes that happened (last weekend)[v:time.DateTimeExpression]")
+  plan (Y2BmUE2tSMwtyEnVS00sKskoLE3MTvXMK85Mzygp1nOFCzFo4VHmlpmXglBazCBdllmmV5KZm6rnkliSGgJkuFYUFKUWF2fm5zEwMTACMQOQZGQAASgfAA==)
+  last-modified (1563570239253)
+}
+train (t-ckn7v693r9uwvw3o0fr747dl8) {
+  utterance ("[g:FindEarthquakes] find earthquakes in (los angeles)[v:geo.SearchTerm] (last week)[v:time.DateTimeExpression]")
+  plan (dUxLDoIwEH34O4Bx59KFrnoIAxxAuUAjL9BIAdtCOL5t/S+cyWTebwYr7DhJ3TcUlMbVt0Femau2pBHZW8DhbyisT9BiM6pRVOzE2Ucv9YmV6lrsX+pxUE35beWm0w9e0Gisf8+jtg2aU5oilY6FB9nUG1obPi+RYIY5Fh7hiRPfiBMq8OjeAQ==)
+  last-modified (1568856940795)
+}

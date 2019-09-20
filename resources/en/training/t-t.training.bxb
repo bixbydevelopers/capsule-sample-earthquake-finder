@@ -1,0 +1,5 @@
+train (t-tma0tqpgubcb1kn3dtjvhk88r) {
+  utterance ("[g:FindEarthquakes] search for earthquakes with event type (ice quake)[v:EventType:'ice quake']")
+  plan (Y2BmUMlKzcvLTEst0ktNLCrJKCxNzE51y8xLAQq4wgUYNHGrAlEIlcUMyngMLEvNKwmpLEhlYGJgBGIGIMnIAAJQPgA=)
+  last-modified (1567435036431)
+}

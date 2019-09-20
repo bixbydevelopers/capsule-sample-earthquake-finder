@@ -1,0 +1,5 @@
+train (t-pzt0qrd8x6iobrhciznjkeiy2) {
+  utterance ("[g:FindEarthquakes] Find earthquakes that happened on (July 4, 2018)[v:time.DateTimeExpression]")
+  plan (Y2BmUE2tSMwtyEnVS00sKskoLE3MTvXMK85Mzygp1nOFCzFo4VHmlpmXglBazCBdllmmV5KZm6rnkliSGgJkuFYUFKUWF2fm5zEwMTACMQOQZGQAASgfAA==)
+  last-modified (1563570239598)
+}

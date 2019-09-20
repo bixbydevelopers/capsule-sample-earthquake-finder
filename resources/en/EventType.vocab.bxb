@@ -1,0 +1,9 @@
+vocab (EventType) {
+	"earthquake" { "earthquake" "earthquakes" }
+	"explosion" { "explosion" "explosions" }
+	"ice quake" { "ice quake" "ice quakes" }
+	"mining explosion" { "mining explosion" "mining explosions" }
+	"other event" { "other event" "other events" }
+	"quarry blast" { "quarry blast" "quarry blasts" }
+}
+

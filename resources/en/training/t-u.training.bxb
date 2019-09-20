@@ -1,0 +1,5 @@
+train (t-u5p5awcjy83ilncwtbxfawcbc) {
+  utterance ("[g:FindEarthquakes] What earthquakes happened in (Oakland California)[v:geo.SearchTerm] in the (last 3 months)[v:time.DateTimeExpression]?")
+  plan (Y2BjUE2tSMwtyEnVS00sKskoLE3MTvXMK85Mzygp1nOFCzFo4VHmlpmXglBazCBSllmml56arxcMVJycEZSanpmfx6AOE3UqzcxJQZZyK8rPhfBDUotyGYRQtYPFpEFiJZm5qXouiSWpIUCGa0VBUWpxMchkVgZGBiYGZgYWIIsBymYEQgYwBgEQHywLAA==)
+  last-modified (1563570239673)
+}

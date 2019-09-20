@@ -1,0 +1,5 @@
+train (t-znktevm8bkcx9g5vu38zkj5fh) {
+  utterance ("[g:FindEarthquakes:continue] also event type of (quarry blast)[v:EventType:'quarry blast']")
+  plan (Y2BmUMlKzcvLTEst0ktNLCrJKCxNzE51y8xLAQq4wgUYNHGrAlEIlcUMyngMLEvNKwmpLEhlYGJgBGIGIMnIAAJQPgA=)
+  last-modified (1567436820387)
+}

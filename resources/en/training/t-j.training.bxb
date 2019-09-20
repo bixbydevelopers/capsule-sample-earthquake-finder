@@ -1,0 +1,15 @@
+train (t-j9zq3sna947msxt68iobam93s) {
+  utterance ("[g:FindEarthquakes] search for earthqakes within (50)[v:geo.DistanceMagnitude:50] (miles)[v:geo.DistanceUnit:Miles] of (my current location)[r:geo.CurrentLocation]")
+  plan (dY7LCsIwEEWvz1p1ISio+27c9CN8bhRE8QNCO9ZRSbBN/H5TNWpFA2HCuWcuQRvBkaTkPaUhiVQfLkacaM4ytmD2Ahj9t/LxNjP0rnwNE1Lh1qrRYUMJK4nA0bHhc7xWLPVGxGyygtV11oeAwb9VdFyyIHXn6DsyMWlKUi9VJHTe/P2rR8GwUP07mnKmhYxoJRLJ2sT07nLRzgZooYQyKqiihjo8NOCjaSkKvHbnvmV43cpz5qdqX/mWB9wA)
+  last-modified (1568160888115)
+}
+train (t-jgk6gb7pqntgmf355kettkl58) {
+  utterance ("[g:FindEarthquakes] Find earthquakes in (Turkey)[v:geo.SearchTerm]")
+  plan (Y2BlUE2tSMwtyEnVS00sKskoLE3MTvXMK85Mzygp1nOFCzFo4VHmlpmXglBazCBSllmml56arxcMVJycEZSanpmfx6AOE3UqzcxJQZZyK8rPhfBDUotyGYRQtYPFWBgYGZgYmIE0A5TFCGaBABOQBooDAA==)
+  last-modified (1563570239505)
+}
+train (t-jopwve22aq1trhps76tzyriam) {
+  utterance ("[g:FindEarthquakes] Find earthquakes (next Tuesday at 3pm)[v:time.DateTimeExpression]")
+  plan (Y2BmUMtKzcvLTEst0ktNLCrJKCxNzE71zCvOTM8oKdZzhQsxaONT55aZl4JQW8wgXZZZpleSmZuq55JYkhoCZLhWFBSlFhdn5ucxMDEwAjEDkGRkAAEoHwA=)
+  last-modified (1563821396356)
+}

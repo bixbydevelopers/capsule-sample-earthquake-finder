@@ -1,0 +1,5 @@
+train (t-35mgod9hjhb5xgn2lc8kq2eg8) {
+  utterance ("[g:FindEarthquakes] find earthquakes with event type (explosion)[v:EventType:explosion] and (mining explosion)[v:EventType:'mining explosion']")
+  plan (Y2BlUMlKzcvLTEst0ktNLCrJKCxNzE51y8xLAQq4wgUYNHGrAlEIlcUMyngMLEvNKwmpLEiloiIWBkYGJgZmIM0AZjEBSQYGHiBkAIoyQmQA)
+  last-modified (1567437902815)
+}

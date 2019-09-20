@@ -1,0 +1,5 @@
+train (t-48l05f1762c0ol49z6ewg30iv) {
+  utterance ("[g:FindEarthquakes] What earthquakes happened within (50)[v:geo.DistanceMagnitude:50] (miles)[v:geo.DistanceUnit:Miles] of the (Golden Gate Bridge)[v:geo.SearchTerm]")
+  plan (dY3LDoJADEUvCj62xo17E+OGjzDKzo2PD5gwdajKEAeG73cEEXw1adqee9tijPmZtOYTmZCEKZKbFReKWEsHNi+A5X/Xo7TOHNOSy1BRFu6dNU52pDjTWDR0Zfkqu1JksrSeD2TSr3Uh2eaY/Vr/kNacF0LHtBVKc2Eltbca6egETN4/VF9H8NBDHz4CDDB0MzokcNWrSJ11+K5/eu8=)
+  last-modified (1568160797438)
+}

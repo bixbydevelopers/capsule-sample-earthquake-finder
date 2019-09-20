@@ -1,0 +1,15 @@
+train (t-d37rff5bt1y8vq3pv4biwvvpq) {
+  utterance ("[g:Magnitude] What was the magnitude of the earthquake that happened in (May last year)[v:time.DateTimeExpression] in (Anchorage)[v:geo.SearchTerm]")
+  plan (fYzLDoJADEUL+Ngbd241Ji7mI4yQuHCj/MDEaYYGZsB5ED7fASLqhjZN7r09Laxhjx1XTYUMuXHFy/MSr9qSLJxlNy41OS8QDjNUOkVwmsEy0uKLWti21DKJNXsE+FncUVKt4fhJz54q8bvKTK1Gn6NRsPk/H7JdnzlSyC7cYR5E2jUGre0/ryCCGBJYwDJomFwcOhr8WEmYgXgD)
+  last-modified (1563570239449)
+}
+train (t-d7a1fdxx0dpiy6atmtt6iw39n) {
+  utterance ("[g:FindEarthquakes] Find earthquakes near (Alcatraz)[v:geo.SearchTerm] that happened (last year)[v:time.DateTimeExpression]")
+  plan (Y2BjUE2tSMwtyEnVS00sKskoLE3MTvXMK85Mzygp1nOFCzFo4VHmlpmXglBazCBSllmml56arxcMVJycEZSanpmfx6AOE3UqzcxJQZZyK8rPhfBDUotyGYRQtYPFpEFiJZm5qXouiSWpIUCGa0VBUWpxMchkVgZGBiYGZgYWIIsBymYEQgYwBgEQHywLAA==)
+  last-modified (1563570239353)
+}
+train (t-d80qudx24megwmp64tzek7y6b) {
+  utterance ("[g:FindEarthquakes:continue] greater than magnitude {[g:MinMagnitude] (2.0)[v:Magnitude]}")
+  plan (Y2BhUMlKzcvLTEst0ktNLCrJKCxNzE51y8xLAQq4wgUYNHGrAlEIlcUMariV+mbm+Sam52WWlKakMijjUQdXxMzAyMAEJBnANCOQZgFimCiQBAA=)
+  last-modified (1567639177762)
+}

@@ -1,0 +1,10 @@
+train (t-a5m0dpxinn749248oomygdzmt) {
+  utterance ("[g:FindEarthquakes] Show earthquakes of at least {[g:MinMagnitude] (7.0)[v:Magnitude]} magnitude from (January 2019 through March 2019)[v:time.DateTimeExpression]")
+  plan (fYpBDoJADEU/iqdwqzFxMacQExfsuEATGmiUirQQjs9kFrib/MX/7Xs44corDeOHA9Pk/W+mN7/UpOvdQrW/cM9oT9H2rxpuGbcWralT8bllXHLibp0XWYLLwOFBzk0c1TpObCZfRYkCBxxjI60iBulCYmWikWw=)
+  last-modified (1563570239091)
+}
+train (t-aqmtfvea2ute0g2n3sbhf2xan) {
+  utterance ("[g:FindEarthquakes] find earthquakes in (los angeles)[v:geo.SearchTerm] that happened (last week)[v:time.DateTimeExpression] that were greater than {[g:MinMagnitude] (3.0)[v:Magnitude]}")
+  plan (fYy7EoIwEEUvvmvHzlJHxyYf4QgdjfIDGVlhVYKGwPj5JnFELXBT7N6zZ4MJlmdSik+kBUlt8nstLxSxSi0IW4BNt+Xax6yw6lZjVrHMFJs6JSz+eK00a7gRGZXiYKVjvqeMS4X1m25rvqbfq0iXxSsnpAtMf889mztmuCCxk4YSO4SPm6aqcj+PEaCHPgYYYmQTfA58DuyDneC7K8ec5S6s9wQ=)
+  last-modified (1568515327640)
+}

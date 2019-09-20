@@ -1,0 +1,10 @@
+train (t-q77v3g1cf2p3gzv37y40jlcla) {
+  utterance ("[g:FindEarthquakes] find earthquakes with event type equal to (mining explosion)[v:EventType:'mining explosion']")
+  plan (Y2BmUMlKzcvLTEst0ktNLCrJKCxNzE51y8xLAQq4wgUYNHGrAlEIlcUMyngMLEvNKwmpLEhlYGJgBGIGIMnIAAJQPgA=)
+  last-modified (1567435138830)
+}
+train (t-qept7rc5010mk08oo7xxldo0c) {
+  utterance ("[g:FindEarthquakes] Find earthquakes (near me)[r:viv.geo.CurrentLocation]")
+  plan (dY5BDoIwEEW/IKI7E030AGzccAiNunFh8AQNjDBq2lhazm/RFMWESZrpvL75KWZIbiQlX0mnJLSpnlbc6cCycGDfAWyGrbZ9zRrLhpu0JJVenJpXGZWsJBJPt5YfxVmxNJko2NY9a+GtHwHroVXM/cuR1Jtj5cnOak3SnFQuTJv8/6tPwBQjBAgxRoQJYjejRyI3oTsh2grcPQZe)
+  last-modified (1567289707204)
+}

@@ -1,0 +1,5 @@
+train (t-me1k7obr8d8tu2y8iibslwm8f) {
+  utterance ("[g:FindEarthquakes:continue] How about minimum magnitude of {[g:MinMagnitude] (6.0)[v:Magnitude]}?")
+  plan (Y2BhUMlKzcvLTEst0ktNLCrJKCxNzE51y8xLAQq4wgUYNHGrAlEIlcUMariV+mbm+Sam52WWlKakMijjUQdXxMzAyMAEJBnANCOQZgFimCiQBAA=)
+  last-modified (1567291290418)
+}

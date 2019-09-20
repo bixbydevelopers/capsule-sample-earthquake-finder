@@ -1,0 +1,37 @@
+capsule {
+	id (example.earthquakeFinder)
+	version (0.7.5)
+	format (3)
+	targets {
+		target (bixby-mobile-en-US)
+	}
+	marketplace-constraints {
+		country-constraints {
+			allowed-list {
+				allow (US)
+			}
+		}
+	}
+	capsule-imports {
+		import (viv.time) {
+			as (time) version (2.92.45)
+		}
+		import (viv.geo) {
+			as (geo) version (9.20.3)
+		}
+	}
+	permissions {
+		user-profile-access
+	}
+	store-sections {
+		section (EducationAndReference)
+	}
+	runtime-flags {
+		no-filtering-with-validation
+		support-halt-effect-in-computed-inputs
+		modern-prompt-rejection
+		modern-default-view-behavior
+		concepts-inherit-super-type-features
+		use-input-views-for-selection-list-detail
+	}
+}

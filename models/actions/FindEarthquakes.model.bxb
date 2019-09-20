@@ -1,0 +1,102 @@
+action (FindEarthquakes) {
+	description (Search for earthquakes based on different input parameters)
+	type (Search)
+	collect {
+		input (dateTimeExpression) {
+			type (time.DateTimeExpression)
+			min (Optional) max (One)
+		}
+		input (searchRegion) {
+			type (geo.SearchRegion)
+			min (Optional) max (One)
+			default-select {
+				with-learning
+				with-rule {
+					select-first
+				}
+			}
+			// default-init block. May be uncommented if developer chooses to always set default searchRegion to user's location.
+			// default-init {
+			//   if ($user.currentLocation.$exists) {
+			//     intent {
+			//       goal: geo.SearchRegion
+			//       value-set: geo.CurrentLocation { $expr ($user.currentLocation) }
+			//     }
+			//   }
+			// }
+		}
+		input (minMagnitude) {
+			type (MinMagnitude)
+			min (Optional) max (One)
+			// default-init block. May be uncommented if developer chooses to always set default minMagnitude to a default value.
+			// default-init {
+			// 	intent {
+			// 		goal-set {
+			// 			MinMagnitude {
+			// 				MinMagnitude (3.0)
+			// 			}
+			// 		}
+			// 	}
+			// }
+		}
+		input (maxMagnitude) {
+			type (MaxMagnitude)
+			min (Optional) max (One)
+		}
+		input (approxMagnitude) {
+			type (ApproxMagnitude)
+			min (Optional) max (One)
+		}
+		input (eventType) {
+			type (EventType)
+			min (Optional) max (Many)
+		}
+		// Alternate way to handle multi-cardinal inputs using iterable and setting input value to max (One)
+		// input (eventType) {
+		// 	iterable
+		// 	type (EventType)
+		// 	min (Optional) max (One)
+		// }
+		
+	}
+	// Relaxation mechanism #1, as described in the blog
+	// output (Earthquake) {
+	// 	on-empty {
+	// 		drop-contextual-inputs
+	// 	}
+	// }
+	// Relaxation mechanism #2, as described in the blog
+	// output (Earthquake) {
+	// 	on-empty {
+	// 		if (exists(minMagnitude)) {
+	// 			drop (minMagnitude)
+	// 		}
+	// 		else-if (exists(searchRegion)) {
+	// 			ordered-effects {
+	// 				drop (searchRegion)
+	// 			}
+	// 		}
+	// 	}
+	// }
+	// Relaxation mechanism #3, as described in the blog
+	output (Earthquake) {
+		on-empty {
+			if (searchRegion.searchType == 'PointRadius') {
+				replace (searchRegion) {
+					if (exists(searchRegion.pointRadius)) {
+						intent {
+							goal  {geo.SearchRegion}
+							value { geo.GeoPoint$expr (searchRegion.pointRadius.centroid) }
+							value {
+								geo.SearchRadius {
+									unit: geo.DistanceUnit$expr (searchRegion.pointRadius.radius.unit)
+									magnitude { geo.DistanceMagnitude(25) }
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
