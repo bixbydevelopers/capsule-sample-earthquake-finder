@@ -1,6 +1,6 @@
 capsule-info {
   display-name (Earthquake Finder)
-  developer-name (Jennifer Arnold)
+  developer-name (Viv Labs)
   icon-asset (icon3.png)
   description ("Search for earthquakes based on different input parameters")
   	search-keywords { // up to 10 allowed
