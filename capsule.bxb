@@ -5,19 +5,12 @@ capsule {
 	targets {
 		target (bixby-mobile-en-US)
 	}
-	marketplace-constraints {
-		country-constraints {
-			allowed-list {
-				allow (US)
-			}
-		}
-	}
 	capsule-imports {
 		import (viv.time) {
-			as (time) version (2.92.45)
+			as (time) version (3.1.13)
 		}
 		import (viv.geo) {
-			as (geo) version (9.20.3)
+			as (geo) version (9.23.9)
 		}
 	}
 	permissions {
@@ -33,5 +26,10 @@ capsule {
 		modern-default-view-behavior
 		concepts-inherit-super-type-features
 		use-input-views-for-selection-list-detail
+	}
+	store-countries {
+		only {
+			allow (US)
+		}
 	}
 }
