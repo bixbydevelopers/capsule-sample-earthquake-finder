@@ -19,7 +19,11 @@ capsule {
 	store-sections {
 		section (EducationAndReference)
 	}
-	runtime-version (2)
+	runtime-version (7) {
+		overrides {
+			no-fallback-dialog-in-views (false)
+		}
+	}
 	store-countries {
 		only {
 			allow (US)
