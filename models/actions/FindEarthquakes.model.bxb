@@ -81,7 +81,7 @@ action (FindEarthquakes) {
 	// Relaxation mechanism #3, as described in the blog
 	output (Earthquake) {
 		on-empty {
-			if (searchRegion.searchType == 'PointRadius') {
+			if (exists(searchRegion.searchType) && searchRegion.searchType == 'PointRadius') {
 				replace (searchRegion) {
 					if (exists(searchRegion.pointRadius)) {
 						intent {
