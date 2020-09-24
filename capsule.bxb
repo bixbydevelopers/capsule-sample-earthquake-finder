@@ -19,7 +19,7 @@ capsule {
 	store-sections {
 		section (EducationAndReference)
 	}
-	runtime-version (7) {
+	runtime-version (8) {
 		overrides {
 			no-fallback-dialog-in-views (false)
 		}
