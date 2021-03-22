@@ -21,7 +21,7 @@ find earthquakes in los angeles that happened last week
 ```
 
 ## How to customize
-* This capsule and the companion blog describes the features of Bixby’s conversational interaction model, including:
+* This capsule and the [companion blog](https://bixby.developer.samsung.com/newsroom/en-us/Lets-Talk-All-About-Bixby-Conversations) describes the features of Bixby’s conversational interaction model, including:
   1. Value prompts for required inputs or selection prompts for disambiguation of multiple inputs
   2. Default initialization to prevent unnecessary user prompting for required inputs
   3. Replacement functionality for single cardinal inputs
