@@ -21,7 +21,7 @@ find earthquakes in los angeles that happened last week
 ```
 
 ## How to customize
-* This capsule and the [companion blog](https://bixby.developer.samsung.com/newsroom/en-us/Lets-Talk-All-About-Bixby-Conversations) describes the features of Bixby’s conversational interaction model, including:
+* This capsule and the [companion blog](https://bixbydevelopers.com/dev/docs/dev-guide/developers/enhancing-UX.guiding-conversations) describes the features of Bixby’s conversational interaction model, including:
   1. Value prompts for required inputs or selection prompts for disambiguation of multiple inputs
   2. Default initialization to prevent unnecessary user prompting for required inputs
   3. Replacement functionality for single cardinal inputs
@@ -35,7 +35,6 @@ find earthquakes in los angeles that happened last week
 
 ### Your Source for Everything Bixby
 * [Bixby Developer Center](http://bixbydevelopers.com) - Everything you need to get started with Bixby Development!
-* [Bixby News, Blogs and Tutorials](https://bixby.developer.samsung.com/) - Bixby News, Tutorials, Blogs and Events
 
 ### Guides & Best Practices
 * [Quick Start Guide](https://bixbydevelopers.com/dev/docs/get-started/quick-start) - Build your first capsule

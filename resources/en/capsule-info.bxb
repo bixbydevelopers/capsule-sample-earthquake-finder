@@ -10,7 +10,6 @@ capsule-info {
 	dispatch-aliases {
 		alias (Earthquake Finders)
 	}
-	privacy-policy-url (http://my-capsule.com/privacy-policy)
 	requested-permissions {
 		permission (device-location-access) {
 			justification (To provide your current location for earthquake search.)
